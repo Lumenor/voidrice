@@ -24,10 +24,6 @@ set go=a
 set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
-set noshowmode
-set noruler
-set laststatus=0
-set noshowcmd
 
 " Some basics:
 	nnoremap c "_c
