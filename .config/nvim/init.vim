@@ -16,6 +16,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 set title
@@ -24,6 +25,16 @@ set go=a
 set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
+set termguicolors
+colorscheme nord
+let g:nord_cursor_line_number_background = 1
+let g:nord_uniform_status_lines = 1
+let g:nord_bold_vertical_split_line = 1
+let g:nord_uniform_diff_background = 1
+let g:nord_bold = 1
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+let g:nord_underline = 1
 
 " Some basics:
 	nnoremap c "_c
